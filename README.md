@@ -20,24 +20,24 @@ Stack-Based Interpreter – Evaluates a list of operations `(Push, Add, Mult, Su
 1a. Arithmetic Expression Evaluation
 Expression Types:
 
-+`AST_NUM Int` – Numeric literals
-+`AST_UNARY UOp ArithExp` – Unary operations
-+`AST_BINARY ArithExp BOp ArithExp` – Binary operations
++ `AST_NUM Int` – Numeric literals
++ `AST_UNARY UOp ArithExp` – Unary operations
++ `AST_BINARY ArithExp BOp ArithExp` – Binary operations
 
 Supported Operations:
-+Unary: `NEG (-x)`
-+Binary: `ADD (+)`, `MINUS (-)`, `MUL (*)`, `DIV (/)`, `EXP (^)`
++ Unary: `NEG (-x)`
++ Binary: `ADD (+)`, `MINUS (-)`, `MUL (*)`, `DIV (/)`, `EXP (^)`
 
 1b. Stack Interpreter
 
 Stack Operations:
 
-+`Push Float` – Pushes a number onto the stack
-+`Add` – Pops two values and pushes their sum
-+`Sub` – Pops two values and pushes their difference
-+`Mult` – Pops two values and pushes their product
-+`Div` – Pops two values and pushes their quotient
-+`Swap` – Swaps the top two elements on the stack
++ `Push Float` – Pushes a number onto the stack
++ `Add` – Pops two values and pushes their sum
++ `Sub` – Pops two values and pushes their difference
++ `Mult` – Pops two values and pushes their product
++ `Div` – Pops two values and pushes their quotient
++ `Swap` – Swaps the top two elements on the stack
 
 
 ### 2. PCF Interpreter with Let and Recursion
